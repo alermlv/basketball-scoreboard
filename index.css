@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    font-family: Verdana, sans-serif;
+    color: #EEEEEE;
+    background-color: #1B244A;
 }
 
 .container {
