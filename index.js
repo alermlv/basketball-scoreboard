@@ -1,6 +1,9 @@
 const homeDisplay = document.querySelector(".home-display");
 const awayDisplay = document.querySelector(".away-display");
-const homeButtons = document.querySelectorAll(".home-button");
-const awayButtons = document.querySelectorAll(".away-button");
-let homeScore = 0;
-let awayScore = 0;
+const addPointsButtons = document.querySelectorAll(".add-points-button");
+let homePoints = 0;
+let awayPoints = 0;
+
+function addPoints() {
+  console.log("clicked")
+}
