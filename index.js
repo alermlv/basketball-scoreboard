@@ -1,5 +1,5 @@
-const homeDisplay = document.querySelector(".home-display");
-const awayDisplay = document.querySelector(".away-display");
+const homeDisplay = document.querySelector(".home-points");
+const awayDisplay = document.querySelector(".away-points");
 const addPointsButtons = document.querySelectorAll(".add-points-button");
 let homePoints = 0;
 let awayPoints = 0;
