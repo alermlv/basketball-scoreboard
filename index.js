@@ -1,5 +1,5 @@
-const homeDisplay = document.querySelector(".home-points");
-const awayDisplay = document.querySelector(".away-points");
+const homeDisplayEl = document.querySelector(".home-points");
+const awayDisplayEl = document.querySelector(".away-points");
 const addPointsButtons = document.querySelectorAll(".add-points-button");
 let homePoints = 0;
 let awayPoints = 0;
@@ -14,6 +14,6 @@ function addPoints(obj) {
 }
 
 function updateScore() {
-  homeDisplay.textContent = homePoints;
-  awayDisplay.textContent = awayPoints;
+  homeDisplayEl.textContent = homePoints;
+  awayDisplayEl.textContent = awayPoints;
 }
